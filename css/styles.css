@@ -143,8 +143,10 @@ img {
 .hero-section {
     padding: 200px 0;
     background-color: #2F303A;
-    background-image: url(../image/bgimg.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/bgimg.jpg);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-position: center;
 }
 
 .titel-text {
@@ -245,6 +247,7 @@ img {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 
 .border-name {
@@ -389,16 +392,82 @@ img {
     fill: #757575;
 }
 
+.contact-svg-mail:hover {
+    fill: var(--accent-color);
+}
+
 .contact-svg-phone {
     width: 10px;
     height: 16px;
+    fill: #757575;
+}
+
+.contact-svg-phone:hover {
+    fill: var(--accent-color);
 }
 
 .features-svg {
     width: 70px;
     height: 70px;
+}
+
+.container-svg {
     background-color: #F5F4FA;
     border-radius: 4px;
     padding: 25px 100px;
     margin-bottom: 30px;
+}
+
+.social-member {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    border: transparent;
+}
+
+.social-member-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-member-item {
+    width: 44px;
+    height: 44px;
+}
+
+.social-member-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-member:hover {
+    background-color: var(--accent-color);
+    fill: #F5F4FA;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-svg {
+    width: 106px;
+    height: 60px;
+}
+
+.clients-item {
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-item:hover {
+    fill: var(--accent-color);
 }
