@@ -143,6 +143,8 @@ img {
 .hero-section {
     padding: 200px 0;
     background-color: #2F303A;
+    background-image: url(../image/bgimg.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .titel-text {
@@ -284,7 +286,7 @@ img {
 .ftr-button:focus {
     background-color: var(--accent-color);
     color: var(--whitw-color-texte);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .portfolio-list {
@@ -379,4 +381,24 @@ img {
 .footer-custom {
     background-color: #2F303A;
     padding: 60px 0;
+}
+
+.contact-svg-mail {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+
+.contact-svg-phone {
+    width: 10px;
+    height: 16px;
+}
+
+.features-svg {
+    width: 70px;
+    height: 70px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
 }
