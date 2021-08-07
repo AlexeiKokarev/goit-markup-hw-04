@@ -58,7 +58,6 @@ img {
     line-height: 1.2;
     text-transform: capitalize;
     color: var(--second-color);
-    text-decoration: none;
     margin-right: 93px;
 }
 
@@ -73,7 +72,6 @@ img {
     line-height: 1.2;
     text-transform: capitalize;
     color: var(--whitw-color-texte);
-    text-decoration: none;
 }
 
 .navbar {
@@ -139,6 +137,8 @@ img {
     height: 12px;
     fill: #757575;
     margin-right: 10px;
+    position: relative;
+    top: 2px;
 }
 
 .contact-link:hover .contact-svg-mail,
@@ -151,6 +151,8 @@ img {
     height: 16px;
     fill: #757575;
     margin-right: 10px;
+    position: relative;
+    top: 2px;
 }
 
 .contact-link:hover .contact-svg-phone,
@@ -228,6 +230,8 @@ img {
 }
 
 .features-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--primari-text-color);
 }
 
